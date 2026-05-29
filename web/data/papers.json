@@ -1,6 +1,6 @@
 {
-  "generated_at": "Fri, 29 May 2026 03:33:03 +0000",
-  "generated_at_iso": "2026-05-29T03:33:03.146978+00:00",
+  "generated_at": "Fri, 29 May 2026 03:51:48 +0000",
+  "generated_at_iso": "2026-05-29T03:51:48.230220+00:00",
   "config_source": "issue",
   "topics": [
     {
@@ -273,7 +273,8 @@
           "reason": "关键词命中：endothelial dysfunction；arXiv 分类重合：q-bio.MN",
           "keyword_hits": [
             "endothelial dysfunction"
-          ]
+          ],
+          "llm_reason": "该研究关注内皮功能障碍背景下的替代性血管舒张通路，其中内皮源性超极化因子（EDH）是内皮依赖性舒张的重要组成部分，直接关联我的研究方向中血管舒缩平衡失调、内皮依赖性舒张改变及微循环障碍；尽管原文聚焦高血压相关微血管病，但内皮超极化机制在低血压时也可能发生代偿性变化，可为理解慢性低血压的内皮功能异常提供旁证。"
         },
         {
           "topic_id": "endothelial_glucose_metabolism_vascular_tone",
@@ -316,18 +317,19 @@
         "reason": "关键词命中：endothelial dysfunction；arXiv 分类重合：q-bio.MN",
         "keyword_hits": [
           "endothelial dysfunction"
-        ]
+        ],
+        "llm_reason": "该研究关注内皮功能障碍背景下的替代性血管舒张通路，其中内皮源性超极化因子（EDH）是内皮依赖性舒张的重要组成部分，直接关联我的研究方向中血管舒缩平衡失调、内皮依赖性舒张改变及微循环障碍；尽管原文聚焦高血压相关微血管病，但内皮超极化机制在低血压时也可能发生代偿性变化，可为理解慢性低血压的内皮功能异常提供旁证。"
       },
       "chinese_summary": {
-        "problem": "未配置模型 API，当前仅基于标题、摘要和关键词生成基础摘要。",
-        "method": "Endothelial cells release various vasorelaxing molecules, such as nitric oxide and prostacyclin, along with defined factors that induce hyperpolarization of vascular smooth muscle cells through the opening of calcium-sensitive potassium channels.",
-        "innovation": "需要接入模型 API 后自动抽取更精确的中文创新点。",
-        "evidence": "来源摘要可在论文原文中核验。",
-        "limitations": "基础模式不会阅读全文，也不会进行深度技术对比。",
-        "why_relevant": "关键词命中：endothelial dysfunction；arXiv 分类重合：q-bio.MN"
+        "problem": "论文探讨如何将内皮源性超极化（EDH）信号整合到针对微血管疾病的多靶点治疗策略中，以弥补传统血管舒张机制（如NO通路）的不足。",
+        "method": "通过批判性评估现有药理学证据，分析依赖钾通道的血管舒张机制作为后备途径的优势与风险，并提出单药或联合用药的整体策略。",
+        "innovation": "提出将EDH介导的超极化作为微血管舒张的备用机制加以利用，区别于主流的一氧化氮或前列环素通路；系统评估了将超极化靶点整合到多靶点治疗框架中的可行性，并指出针对微循环缺血性疾病的潜在价值；明确指出开发钾通道开放剂面临的特异性、安全性等瓶颈，并尝试提出组合用药的解决思路。",
+        "evidence": "证据不足，摘要未提供具体实验数据、系统综述结果或临床证据，仅陈述研究将进行评估。",
+        "limitations": "缺乏具体方法与数据支撑，需阅读全文确认是否为纯观点性综述；文中提及的微血管疾病以子痫前期（高血压综合征）及脑小血管病为主，与低血压状态直接关联不明确；未讨论低血压条件下EDH信号是否同样受累。",
+        "why_relevant": "该研究关注内皮功能障碍背景下的替代性血管舒张通路，其中内皮源性超极化因子（EDH）是内皮依赖性舒张的重要组成部分，直接关联我的研究方向中血管舒缩平衡失调、内皮依赖性舒张改变及微循环障碍；尽管原文聚焦高血压相关微血管病，但内皮超极化机制在低血压时也可能发生代偿性变化，可为理解慢性低血压的内皮功能异常提供旁证。"
       },
       "first_seen_at": "2026-05-29T03:03:29.246683+00:00",
-      "last_seen_at": "2026-05-29T03:33:03.146978+00:00",
+      "last_seen_at": "2026-05-29T03:51:48.230220+00:00",
       "retained_from_previous_run": false
     },
     {
@@ -411,12 +413,12 @@
   "stats": {
     "paper_count": 3,
     "new_paper_count": 1,
-    "days": 365,
+    "days": 666,
     "collection_mode": "lookback",
-    "collection_cutoff_iso": "2025-05-29T03:33:03.146978+00:00",
+    "collection_cutoff_iso": "2024-08-01T03:51:48.230220+00:00",
     "max_per_topic": 25,
     "llm_enabled": true,
-    "llm_concurrency": 2,
+    "llm_concurrency": 1,
     "recent_history_days": 45,
     "successful_fetches": 1,
     "failed_fetches": 4,
@@ -425,7 +427,7 @@
     "dropped_low_relevance_count": 0,
     "max_stored_papers": 800,
     "max_data_bytes": 8388608,
-    "data_bytes": 22529,
+    "data_bytes": 24519,
     "storage_trimmed_count": 0,
     "storage_trimmed_by_level": {
       "high": 0,
