@@ -1,12 +1,12 @@
 {
-  "generated_at": "Fri, 29 May 2026 02:22:49 +0000",
-  "generated_at_iso": "2026-05-29T02:22:49.789885+00:00",
+  "generated_at": "Fri, 29 May 2026 03:03:29 +0000",
+  "generated_at_iso": "2026-05-29T03:03:29.246683+00:00",
   "config_source": "issue",
   "topics": [
     {
-      "id": "chronic_hypotension_clinical_mechanism",
-      "name": "慢性低血压的临床表型与发病机制",
-      "description": "聚焦慢性低血压、原发性低血压、体质性低血压及长期低血压状态的临床表现、血流动力学特征、神经体液调节、血管舒缩调控和慢性病理机制。",
+      "id": "chronic_hypotension_clinical_vascular_regulation",
+      "name": "慢性低血压临床表型与血管调控机制",
+      "description": "关注慢性低血压、原发性低血压、体质性低血压和长期低血压状态的临床表型、血流动力学特征、血压调控异常、血管阻力下降、血管舒缩功能异常及神经体液调节机制。",
       "keywords": [
         "chronic hypotension",
         "chronic low blood pressure",
@@ -14,10 +14,13 @@
         "constitutional hypotension",
         "essential hypotension",
         "primary hypotension",
+        "low blood pressure",
         "low blood pressure phenotype",
         "blood pressure regulation",
         "hemodynamic regulation",
         "vascular tone",
+        "vascular resistance",
+        "vascular reactivity",
         "autonomic regulation",
         "baroreflex sensitivity",
         "sympathetic activity",
@@ -33,15 +36,17 @@
     {
       "id": "chronic_hypotension_endothelial_dysfunction",
       "name": "慢性低血压与血管内皮功能失调",
-      "description": "聚焦慢性低血压状态下血管内皮功能异常、血管反应性改变、舒张与收缩失衡、一氧化氮信号、氧化应激、炎症反应和微循环障碍。",
+      "description": "关注慢性低血压状态下血管内皮功能异常、内皮依赖性舒张改变、一氧化氮信号、氧化应激、炎症反应、微循环障碍及血管舒缩平衡失调。",
       "keywords": [
         "chronic hypotension endothelial dysfunction",
         "low blood pressure endothelial function",
+        "hypotension endothelial dysfunction",
         "vascular endothelial dysfunction",
         "endothelial dysfunction",
+        "vascular endothelial function",
+        "endothelium dependent relaxation",
         "vascular reactivity",
         "vascular tone regulation",
-        "endothelium dependent relaxation",
         "nitric oxide signaling",
         "endothelial nitric oxide synthase",
         "eNOS",
@@ -59,15 +64,15 @@
       ]
     },
     {
-      "id": "chronic_hypotension_endothelial_glucose_metabolism",
-      "name": "慢性低血压与内皮细胞糖代谢",
-      "description": "聚焦慢性低血压与血管内皮细胞糖酵解、葡萄糖摄取、线粒体代谢、乳酸代谢、能量代谢重编程及 HIF-1α、AMPK、PFKFB3、GLUT1 等代谢调控通路的关系。",
+      "id": "endothelial_glucose_metabolism_vascular_tone",
+      "name": "内皮细胞糖代谢与血管舒缩功能",
+      "description": "关注血管内皮细胞糖酵解、葡萄糖摄取、线粒体代谢、乳酸代谢、能量代谢重编程及其对内皮功能、NO 生成、血管反应性和血管张力调控的影响。",
       "keywords": [
-        "chronic hypotension endothelial metabolism",
-        "low blood pressure endothelial metabolism",
         "endothelial glucose metabolism",
         "endothelial glycolysis",
         "vascular endothelial glycolysis",
+        "endothelial metabolism",
+        "vascular metabolism",
         "glucose uptake",
         "metabolic reprogramming",
         "mitochondrial metabolism",
@@ -77,7 +82,10 @@
         "AMPK signaling",
         "PFKFB3",
         "GLUT1",
-        "vascular metabolism"
+        "endothelial nitric oxide",
+        "vascular reactivity",
+        "vascular tone",
+        "endothelial dysfunction metabolism"
       ],
       "arxiv_categories": [
         "q-bio.CB",
@@ -87,34 +95,68 @@
       ]
     },
     {
-      "id": "reserpine_chronic_hypotension_model_pharmacology",
-      "name": "利血平诱导慢性低血压模型与药效评价",
-      "description": "聚焦利血平诱导慢性低血压动物模型、慢性低血压细胞模型、模型稳定性评价、血管功能检测、药效学评价、中药复方干预、中医证候及作用机制研究。",
+      "id": "reserpine_chronic_hypotension_model",
+      "name": "利血平诱导慢性低血压模型",
+      "description": "关注利血平诱导慢性低血压动物模型、交感神经递质耗竭、血压持续下降机制、血管功能改变、内皮功能异常、模型稳定性评价及慢性低血压造模方法。",
       "keywords": [
+        "reserpine",
         "reserpine induced hypotension",
         "reserpine-induced chronic hypotension",
         "reserpine low blood pressure model",
+        "reserpine rat model",
         "chronic hypotension animal model",
-        "chronic hypotension cell model",
         "hypotension rat model",
         "hypotension mouse model",
-        "vascular endothelial cell model",
-        "vascular ring assay",
+        "blood pressure lowering model",
+        "catecholamine depletion",
+        "monoamine depletion",
+        "sympathetic neurotransmitter depletion",
         "vascular function model",
-        "pharmacodynamic evaluation",
-        "chronic hypotension treatment",
-        "traditional Chinese medicine hypotension",
-        "TCM syndrome hypotension",
-        "Chinese herbal medicine hypotension",
-        "herbal formula hypotension",
-        "Qi deficiency hypotension",
-        "Yang deficiency hypotension"
+        "vascular ring assay",
+        "arterial ring assay",
+        "endothelial function model",
+        "preclinical hypotension model"
       ],
       "arxiv_categories": [
         "q-bio.TO",
         "q-bio.CB",
         "q-bio.QM",
-        "q-bio.MN"
+        "q-bio.NC"
+      ]
+    },
+    {
+      "id": "chronic_hypotension_pharmacology_tcm_intervention",
+      "name": "慢性低血压药效评价与中医干预",
+      "description": "关注慢性低血压升压干预、血管活性调节、药效学评价、中药复方、植物药、中医证候、气虚阳虚相关证候及利血平低血压模型中的干预机制。",
+      "keywords": [
+        "chronic hypotension treatment",
+        "hypotension treatment",
+        "chronic hypotension pharmacology",
+        "hypotension pharmacodynamics",
+        "blood pressure raising effect",
+        "vasoactive drug",
+        "vascular tone pharmacology",
+        "therapeutic target",
+        "dose response",
+        "reserpine induced hypotension treatment",
+        "traditional Chinese medicine hypotension",
+        "Chinese herbal medicine hypotension",
+        "herbal formula hypotension",
+        "traditional Chinese medicine",
+        "Chinese herbal medicine",
+        "TCM syndrome",
+        "Qi deficiency",
+        "Yang deficiency",
+        "spleen kidney deficiency",
+        "network pharmacology",
+        "systems pharmacology"
+      ],
+      "arxiv_categories": [
+        "q-bio.TO",
+        "q-bio.CB",
+        "q-bio.QM",
+        "q-bio.MN",
+        "stat.AP"
       ]
     }
   ],
@@ -205,6 +247,90 @@
       "retained_from_previous_run": true
     },
     {
+      "id": "2508.01618v1",
+      "source": "arXiv",
+      "title": "Integrating Endothelial-Derived Hyperpolarizing Signaling into a Multitarget Therapeutic Strategy for Microvascular Disease",
+      "authors": [
+        "Paolo Madeddu",
+        "Styliani Goulopoulou",
+        "David Wambeke"
+      ],
+      "summary": "Endothelial cells release various vasorelaxing molecules, such as nitric oxide and prostacyclin, along with defined factors that induce hyperpolarization of vascular smooth muscle cells through the opening of calcium-sensitive potassium channels. Potassium channel-dependent vasorelaxation is prevalent in microvessels and can partially compensate for deficiencies in other vasodilatory mechanisms. Enhancing this backup vasorelaxant mechanism may aid the treatment of microvascular disorders, such as cerebral small vessel disease and preeclampsia, a pregnancy-specific hypertensive syndrome, which is characterized by systemic endothelial dysfunction. The development of pharmacological potassium channel openers has encountered significant challenges, including issues of specificity, safety concerns, and off-target effects. This study critically evaluates the advantages and drawbacks of integrating hyperpolarization into a holistic vasorelaxant strategy for managing ischemic disease through single or combination drug therapies.",
+      "published": "2025-08-03T06:53:59Z",
+      "updated": "2025-08-03T06:53:59Z",
+      "paper_url": "http://arxiv.org/abs/2508.01618v1",
+      "pdf_url": "https://arxiv.org/pdf/2508.01618v1",
+      "categories": [
+        "q-bio.MN"
+      ],
+      "seed_topic": "chronic_hypotension_endothelial_dysfunction",
+      "matches": [
+        {
+          "topic_id": "chronic_hypotension_endothelial_dysfunction",
+          "topic_name": "慢性低血压与血管内皮功能失调",
+          "score": 0.321,
+          "level": "low",
+          "reason": "关键词命中：endothelial dysfunction；arXiv 分类重合：q-bio.MN",
+          "keyword_hits": [
+            "endothelial dysfunction"
+          ]
+        },
+        {
+          "topic_id": "endothelial_glucose_metabolism_vascular_tone",
+          "topic_name": "内皮细胞糖代谢与血管舒缩功能",
+          "score": 0.25,
+          "level": "low",
+          "reason": "arXiv 分类重合：q-bio.MN",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "chronic_hypotension_pharmacology_tcm_intervention",
+          "topic_name": "慢性低血压药效评价与中医干预",
+          "score": 0.237,
+          "level": "low",
+          "reason": "arXiv 分类重合：q-bio.MN",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "reserpine_chronic_hypotension_model",
+          "topic_name": "利血平诱导慢性低血压模型",
+          "score": 0.062,
+          "level": "low",
+          "reason": "文本语义与方向描述存在弱相关，需要人工复核。",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "chronic_hypotension_clinical_vascular_regulation",
+          "topic_name": "慢性低血压临床表型与血管调控机制",
+          "score": 0.031,
+          "level": "low",
+          "reason": "文本语义与方向描述存在弱相关，需要人工复核。",
+          "keyword_hits": []
+        }
+      ],
+      "best_match": {
+        "topic_id": "chronic_hypotension_endothelial_dysfunction",
+        "topic_name": "慢性低血压与血管内皮功能失调",
+        "score": 0.321,
+        "level": "low",
+        "reason": "关键词命中：endothelial dysfunction；arXiv 分类重合：q-bio.MN",
+        "keyword_hits": [
+          "endothelial dysfunction"
+        ]
+      },
+      "chinese_summary": {
+        "problem": "未配置模型 API，当前仅基于标题、摘要和关键词生成基础摘要。",
+        "method": "Endothelial cells release various vasorelaxing molecules, such as nitric oxide and prostacyclin, along with defined factors that induce hyperpolarization of vascular smooth muscle cells through the opening of calcium-sensitive potassium channels.",
+        "innovation": "需要接入模型 API 后自动抽取更精确的中文创新点。",
+        "evidence": "来源摘要可在论文原文中核验。",
+        "limitations": "基础模式不会阅读全文，也不会进行深度技术对比。",
+        "why_relevant": "关键词命中：endothelial dysfunction；arXiv 分类重合：q-bio.MN"
+      },
+      "first_seen_at": "2026-05-29T03:03:29.246683+00:00",
+      "last_seen_at": "2026-05-29T03:03:29.246683+00:00",
+      "retained_from_previous_run": false
+    },
+    {
       "id": "2605.28488v1",
       "source": "arXiv",
       "title": "Bridging Maximum Likelihood and Optimal Transport for Efficient Inference and Model Selection in Stochastic Block Models",
@@ -283,23 +409,23 @@
     }
   ],
   "stats": {
-    "paper_count": 2,
-    "new_paper_count": 0,
-    "days": 7,
+    "paper_count": 3,
+    "new_paper_count": 1,
+    "days": 365,
     "collection_mode": "lookback",
-    "collection_cutoff_iso": "2026-05-22T02:22:49.789885+00:00",
+    "collection_cutoff_iso": "2025-05-29T03:03:29.246683+00:00",
     "max_per_topic": 25,
     "llm_enabled": true,
     "llm_concurrency": 2,
     "recent_history_days": 45,
     "successful_fetches": 1,
-    "failed_fetches": 3,
+    "failed_fetches": 4,
     "retained_paper_count": 2,
     "retained_recent_low_count": 1,
     "dropped_low_relevance_count": 0,
     "max_stored_papers": 800,
     "max_data_bytes": 8388608,
-    "data_bytes": 16422,
+    "data_bytes": 22529,
     "storage_trimmed_count": 0,
     "storage_trimmed_by_level": {
       "high": 0,
