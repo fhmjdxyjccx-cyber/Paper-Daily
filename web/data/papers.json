@@ -1,6 +1,6 @@
 {
-  "generated_at": "Fri, 29 May 2026 03:03:29 +0000",
-  "generated_at_iso": "2026-05-29T03:03:29.246683+00:00",
+  "generated_at": "Fri, 29 May 2026 03:33:03 +0000",
+  "generated_at_iso": "2026-05-29T03:33:03.146978+00:00",
   "config_source": "issue",
   "topics": [
     {
@@ -327,7 +327,7 @@
         "why_relevant": "关键词命中：endothelial dysfunction；arXiv 分类重合：q-bio.MN"
       },
       "first_seen_at": "2026-05-29T03:03:29.246683+00:00",
-      "last_seen_at": "2026-05-29T03:03:29.246683+00:00",
+      "last_seen_at": "2026-05-29T03:33:03.146978+00:00",
       "retained_from_previous_run": false
     },
     {
@@ -413,7 +413,7 @@
     "new_paper_count": 1,
     "days": 365,
     "collection_mode": "lookback",
-    "collection_cutoff_iso": "2025-05-29T03:03:29.246683+00:00",
+    "collection_cutoff_iso": "2025-05-29T03:33:03.146978+00:00",
     "max_per_topic": 25,
     "llm_enabled": true,
     "llm_concurrency": 2,
@@ -421,7 +421,7 @@
     "successful_fetches": 1,
     "failed_fetches": 4,
     "retained_paper_count": 2,
-    "retained_recent_low_count": 1,
+    "retained_recent_low_count": 2,
     "dropped_low_relevance_count": 0,
     "max_stored_papers": 800,
     "max_data_bytes": 8388608,
