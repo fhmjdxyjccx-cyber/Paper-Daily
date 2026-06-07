@@ -1,6 +1,6 @@
 {
-  "generated_at": "Sat, 06 Jun 2026 22:59:38 +0000",
-  "generated_at_iso": "2026-06-06T22:59:38.818339+00:00",
+  "generated_at": "Sun, 07 Jun 2026 23:01:23 +0000",
+  "generated_at_iso": "2026-06-07T23:01:23.772824+00:00",
   "config_source": "issue",
   "topics": [
     {
@@ -389,13 +389,13 @@
     "new_paper_count": 0,
     "days": 1,
     "collection_mode": "incremental",
-    "collection_cutoff_iso": "2026-06-05T23:04:41.409903+00:00",
+    "collection_cutoff_iso": "2026-06-06T22:59:38.818339+00:00",
     "max_per_topic": 25,
     "llm_enabled": true,
     "llm_concurrency": 1,
     "recent_history_days": 45,
-    "successful_fetches": 4,
-    "failed_fetches": 1,
+    "successful_fetches": 5,
+    "failed_fetches": 0,
     "retained_paper_count": 3,
     "retained_recent_low_count": 2,
     "dropped_low_relevance_count": 0,
