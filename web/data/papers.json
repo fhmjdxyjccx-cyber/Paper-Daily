@@ -1,6 +1,6 @@
 {
-  "generated_at": "Fri, 07 Aug 2026 01:28:53 +0000",
-  "generated_at_iso": "2026-08-07T01:28:53.665142+00:00",
+  "generated_at": "Fri, 07 Aug 2026 22:30:04 +0000",
+  "generated_at_iso": "2026-08-07T22:30:04.974383+00:00",
   "config_source": "issue",
   "topics": [
     {
@@ -226,7 +226,7 @@
     "new_paper_count": 0,
     "days": 1,
     "collection_mode": "incremental",
-    "collection_cutoff_iso": "2026-08-05T22:54:44.446351+00:00",
+    "collection_cutoff_iso": "2026-08-07T01:28:53.665142+00:00",
     "max_per_topic": 25,
     "llm_enabled": true,
     "llm_concurrency": 1,
