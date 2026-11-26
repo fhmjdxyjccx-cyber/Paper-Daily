@@ -1,6 +1,6 @@
 {
-  "generated_at": "Wed, 25 Nov 2026 04:44:58 +0000",
-  "generated_at_iso": "2026-11-25T04:44:58.139396+00:00",
+  "generated_at": "Thu, 26 Nov 2026 03:54:44 +0000",
+  "generated_at_iso": "2026-11-26T03:54:44.434556+00:00",
   "config_source": "issue",
   "topics": [
     {
@@ -219,14 +219,94 @@
       "first_seen_at": "2026-05-28T09:35:48.728882+00:00",
       "last_seen_at": "2026-05-28T13:18:49.361053+00:00",
       "retained_from_previous_run": true
+    },
+    {
+      "id": "2611.33997v1",
+      "source": "arXiv",
+      "title": "Milk-removal feedback shapes lactation sustainability and daily output in a model of human lactation",
+      "authors": [
+        "Angelika Manhart",
+        "Tobias Müller"
+      ],
+      "summary": "Milk production during lactation is dynamically regulated by milk removal, yet quantitative models linking feeding or pumping schedules to subsequent production remain scarce. We develop a minimal model describing milk accumulation and production between removal sessions, and the stimulation of subsequent production through milk removal. We compare different assumptions about how stimulation depends on the amount of milk removed or the duration of removal, and consider two removal protocols: prescribing either the removed amount or the removal duration. When stimulation depends on the removed amount, declining production can reduce subsequent stimulation and reinforce the decline. This leads to a critical wait interval beyond which no repeated constant schedule can sustain lactation. If stimulation is inefficient for small removal amounts but more efficient at intermediate amounts, the model can exhibit bistability: depending on the initial conditions, milk production either persists or ceases. In contrast, duration-dependent stimulation does not permit a zero-production state under continued removal, but can generate non-constant long-term dynamics under certain conditions. We further show that maximizing milk removal per session need not maximize daily output, because increased removal competes with session frequency. The framework provides a basis for testing alternative feedback hypotheses against longitudinal data and for optimizing feeding and pumping schedules.",
+      "published": "2026-11-25T08:47:46Z",
+      "updated": "2026-11-25T08:47:46Z",
+      "paper_url": "http://arxiv.org/abs/2611.33997v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.33997v1",
+      "categories": [
+        "q-bio.QM",
+        "math.DS"
+      ],
+      "seed_topic": "chronic_hypotension_energy_metabolism",
+      "matches": [
+        {
+          "topic_id": "chronic_hypotension_endothelial_dysfunction",
+          "topic_name": "慢性低血压与血管内皮功能障碍",
+          "score": 0.3,
+          "level": "low",
+          "reason": "arXiv 分类重合：q-bio.QM",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "chronic_hypotension_energy_metabolism",
+          "topic_name": "慢性低血压与糖代谢/能量代谢异常",
+          "score": 0.237,
+          "level": "low",
+          "reason": "arXiv 分类重合：q-bio.QM",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "endothelial_metabolism_NO_ET1_balance",
+          "topic_name": "内皮代谢与NO/ET-1血管活性因子平衡",
+          "score": 0.237,
+          "level": "low",
+          "reason": "arXiv 分类重合：q-bio.QM",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "endothelial_glucose_metabolism_vascular_function",
+          "topic_name": "内皮糖代谢与血管舒缩功能",
+          "score": 0.206,
+          "level": "low",
+          "reason": "arXiv 分类重合：q-bio.QM",
+          "keyword_hits": []
+        },
+        {
+          "topic_id": "hypoperfusion_endothelial_metabolic_stress",
+          "topic_name": "低灌注状态下的内皮代谢应激",
+          "score": 0.175,
+          "level": "low",
+          "reason": "arXiv 分类重合：q-bio.QM",
+          "keyword_hits": []
+        }
+      ],
+      "best_match": {
+        "topic_id": "chronic_hypotension_endothelial_dysfunction",
+        "topic_name": "慢性低血压与血管内皮功能障碍",
+        "score": 0.3,
+        "level": "low",
+        "reason": "arXiv 分类重合：q-bio.QM",
+        "keyword_hits": []
+      },
+      "chinese_summary": {
+        "problem": "未配置模型 API，当前仅基于标题、摘要和关键词生成基础摘要。",
+        "method": "Milk production during lactation is dynamically regulated by milk removal, yet quantitative models linking feeding or pumping schedules to subsequent production remain scarce.",
+        "innovation": "需要接入模型 API 后自动抽取更精确的中文创新点。",
+        "evidence": "来源摘要可在论文原文中核验。",
+        "limitations": "基础模式不会阅读全文，也不会进行深度技术对比。",
+        "why_relevant": "arXiv 分类重合：q-bio.QM"
+      },
+      "first_seen_at": "2026-11-26T03:54:44.434556+00:00",
+      "last_seen_at": "2026-11-26T03:54:44.434556+00:00",
+      "retained_from_previous_run": false
     }
   ],
   "stats": {
-    "paper_count": 1,
-    "new_paper_count": 0,
+    "paper_count": 2,
+    "new_paper_count": 1,
     "days": 1,
     "collection_mode": "incremental",
-    "collection_cutoff_iso": "2026-11-24T05:43:12.247225+00:00",
+    "collection_cutoff_iso": "2026-11-25T04:44:58.139396+00:00",
     "max_per_topic": 25,
     "llm_enabled": true,
     "llm_concurrency": 1,
@@ -238,7 +318,7 @@
     "dropped_low_relevance_count": 0,
     "max_stored_papers": 800,
     "max_data_bytes": 8388608,
-    "data_bytes": 11591,
+    "data_bytes": 16283,
     "storage_trimmed_count": 0,
     "storage_trimmed_by_level": {
       "high": 0,
