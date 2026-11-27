@@ -1,6 +1,6 @@
 {
-  "generated_at": "Thu, 26 Nov 2026 03:54:44 +0000",
-  "generated_at_iso": "2026-11-26T03:54:44.434556+00:00",
+  "generated_at": "Fri, 27 Nov 2026 03:54:55 +0000",
+  "generated_at_iso": "2026-11-27T03:54:55.651658+00:00",
   "config_source": "issue",
   "topics": [
     {
@@ -298,27 +298,27 @@
       },
       "first_seen_at": "2026-11-26T03:54:44.434556+00:00",
       "last_seen_at": "2026-11-26T03:54:44.434556+00:00",
-      "retained_from_previous_run": false
+      "retained_from_previous_run": true
     }
   ],
   "stats": {
     "paper_count": 2,
-    "new_paper_count": 1,
+    "new_paper_count": 0,
     "days": 1,
     "collection_mode": "incremental",
-    "collection_cutoff_iso": "2026-11-25T04:44:58.139396+00:00",
+    "collection_cutoff_iso": "2026-11-26T03:54:44.434556+00:00",
     "max_per_topic": 25,
     "llm_enabled": true,
     "llm_concurrency": 1,
     "recent_history_days": 45,
     "successful_fetches": 5,
     "failed_fetches": 0,
-    "retained_paper_count": 1,
-    "retained_recent_low_count": 0,
+    "retained_paper_count": 2,
+    "retained_recent_low_count": 1,
     "dropped_low_relevance_count": 0,
     "max_stored_papers": 800,
     "max_data_bytes": 8388608,
-    "data_bytes": 16283,
+    "data_bytes": 16282,
     "storage_trimmed_count": 0,
     "storage_trimmed_by_level": {
       "high": 0,
